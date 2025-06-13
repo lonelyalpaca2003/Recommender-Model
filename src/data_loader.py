@@ -6,7 +6,7 @@ def load_full_data():
     return full_df
 
 def load_processed_data():
-    processed_df = pd.read_csv('./data/data_sample.csv')
+    processed_df = pd.read_csv('./data/indian_songs.csv')
     return processed_df
 
 def load_similarity_matrix():
